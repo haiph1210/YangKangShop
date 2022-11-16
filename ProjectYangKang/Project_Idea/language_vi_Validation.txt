@@ -1,0 +1,45 @@
+#For Account Create Form and Account Update
+
+AccountForm.Id.Exists=ID của tài khoản không tồn tại!!!
+AccountForm.Id.NotExists=ID của tài khoản đã tồn tại!!!
+AccountForm.username.NotBlank=Tên tài khoản không được để trống 
+AccountForm.username.Lenght= Tên tài khoản có chiều dài lớn nhất là 50 kí tự
+AccountFrom.username.Exitst= Tên tài khoản không tồn tại!!! 
+#sài đăng nhập
+AccountForm.username.NotExists= Tên tài khoản đã tồn tại!!!  
+#sài trong đăng kí
+AccountForm.password.NotBlank= Mật khẩu không được để trống
+AccountForm.password.Length=Mật khẩu có chiều dài lớn nhất là 100 kí tự
+AccountForm.firstName.NotBlank= Tên không được để trống
+AccountForm.firstName.Length=Tên có chiều dài tối đa là 30 kí tự
+AccountForm.lastName.NotBlank= Tên không được để trống
+AccountForm.lastName.Length=Tên có chiều dài tối đa là 30 kí tự
+AccountForm.role.NotNull= Vai trò không được để trống,ADMIN || MANAGER || CLIENT
+AccountForm.createdDate.PastOrPresent= Ngày tạo phải là một ngày trong quá khứ hoặc hiện tại 
+AccountForm.updateAt.PastOrPresent= Ngày cập nhật phải là một ngày trong quá khứ hoặc hiện tại 
+#For Category
+CategoryForm.ID.Exists=Tên tài khoản không tồn tại!!! 
+CategoryForm.Id.NotExists=ID của danh mục đã tồn tại!!!
+CategoryForm.name.NotBlank=Tên danh mục không được để trống 
+CategoryForm.name.Lenght= Tên danh mục có chiều dài tối đa là 50 kí tự
+CategoryForm.name.Exitst= Tên danh mục không tồn tại!!! 
+#sài đăng nhập
+CategoryForm.name.NotExists= Tên danh mục đã tồn tại!!!  
+#sài trong đăng kí
+CategoryForm.createdDate.PastOrPresent= Ngày tạo phải là một ngày trong quá khứ hoặc hiện tại 
+CategoryForm.updateAt.PastOrPresent= Ngày cập nhật phải là một ngày trong quá khứ hoặc hiện tại 
+
+#For Product
+ProductForm.ID.Exists=ID của sản phẩm không tồn tại!!!
+ProductForm.Id.NotExists=ID của sản phẩm đã tồn tại!!!
+ProductForm.name.NotBlank= Tên sản phẩm không được để trống
+ProductForm.name.Lenght= Tên sản phẩm có chiều dài tối đa là 50 kí tự
+ProductForm.name.Exitst= Tên sản phẩm không tồn tại!!! 
+#sài đăng nhập
+ProductForm.name.NotExists=  Tên sản phẩm đã tồn tại!!!  
+ProductForm.price.NotNull= Giá tiền trò không được để trống
+ProductForm.amount.NotNull= Số lượng không được để trống
+ProductForm.description.NotNull=Giới thiệu sản phẩn không được để trống
+ProductForm.thumbnailUrl.NotNull= URL không được để trống
+ProductForm.ram.NotNull=Ram không được để trống
+ProductForm.ram.Lenght=Ram chiều dài tối đa là 6 kí tự
