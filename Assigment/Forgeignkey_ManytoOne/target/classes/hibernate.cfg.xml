@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+        <!--    Database connection    -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/department_manager</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">admin123</property>
+        <property name="hibernate.connection.pool_size">3</property>    <!-- mặc định là 3 máy kết nối đc  -->
+
+
+        <!--    Show SQL    -->
+        <property name="hibernate.show_sql">false</property>   <!-- show sql  -->
+        <property name="hibernate.highlight_sql">true</property>   <!-- bật màu code SQl -->
+        <property name="hibernate.format_sql">false</property>  <!-- format code -->
+        <property name="hibernate.use_sql_comments">false</property>  <!-- comment -->
+
+        <!--    Auto generate table    -->
+        <property name="hibernate.hbm2ddl.auto">create</property>   <!-- tự động tạo bảng  -->
+        <property name="hibernate.globally_quoted_identifiers">true</property>  <!-- tự động tạo dấu `` -->
+
+        <!--    Entity mapping    -->
+        <mapping class="entity.Department" />   <!-- mapping đến bảng group -->
+        <mapping class="entity.Account" />   <!-- mapping đến bảng group -->
+
+
+
+    </session-factory>
+</hibernate-configuration>

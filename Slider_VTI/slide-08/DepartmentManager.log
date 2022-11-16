@@ -1,0 +1,113 @@
+2022-10-26 16:12:01 [background-preinit] INFO  o.h.v.i.u.Version                                  - HV000001: Hibernate Validator 6.2.5.Final 
+2022-10-26 16:12:01 [restartedMain] INFO  c.v.s.Slide08Application                           - Starting Slide08Application using Java 1.8.0_345 on DESKTOP-RUU2FJP with PID 16024 (E:\VTI-SouceCode\Java\Java-Advance\Slider_VTI\slide-08\target\classes started by haiph in E:\VTI-SouceCode\Java\Java-Advance\Slider_VTI\slide-08) 
+2022-10-26 16:12:01 [restartedMain] INFO  c.v.s.Slide08Application                           - No active profile set, falling back to 1 default profile: "default" 
+2022-10-26 16:12:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-10-26 16:12:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-10-26 16:12:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-10-26 16:12:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 147 ms. Found 2 JPA repository interfaces. 
+2022-10-26 16:12:09 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http) 
+2022-10-26 16:12:09 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"] 
+2022-10-26 16:12:09 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat] 
+2022-10-26 16:12:09 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.65] 
+2022-10-26 16:12:10 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext 
+2022-10-26 16:12:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 7819 ms 
+2022-10-26 16:12:10 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-10-26 16:12:10 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.11.Final 
+2022-10-26 16:12:11 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-10-26 16:12:11 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-10-26 16:12:12 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-10-26 16:12:12 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2022-10-26 16:12:15 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-10-26 16:12:15 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-10-26 16:12:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2022-10-26 16:12:20 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain                 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40d2ffa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ebbda75, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c4aa81d, org.springframework.security.web.header.HeaderWriterFilter@6ed21e75, org.springframework.web.filter.CorsFilter@7bec735c, org.springframework.security.web.authentication.logout.LogoutFilter@58dbc863, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5e8e36d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d9a0785, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4374249d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c3c5712, org.springframework.security.web.session.SessionManagementFilter@78550967, org.springframework.security.web.access.ExceptionTranslationFilter@188b2399, org.springframework.security.web.access.intercept.AuthorizationFilter@6b58df3f] 
+2022-10-26 16:12:20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-10-26 16:12:21 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8080"] 
+2022-10-26 16:12:21 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8080 (http) with context path '' 
+2022-10-26 16:12:22 [restartedMain] INFO  c.v.s.Slide08Application                           - Started Slide08Application in 21.592 seconds (JVM running for 23.983) 
+2022-10-26 16:13:04 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-10-26 16:13:04 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet' 
+2022-10-26 16:13:04 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 1 ms 
+2022-10-26 16:13:46 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver    - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void com.vti.slide08.controller.DepartmentController.create(com.vti.slide08.form.DepartmentCreateForm): [Field error in object 'departmentCreateForm' on field 'totalMembers': rejected value [null]; codes [NotNull.departmentCreateForm.totalMembers,NotNull.totalMembers,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [departmentCreateForm.totalMembers,totalMembers]; arguments []; default message [totalMembers]]; default message [Department total members must NOT be null]] ] 
+2022-10-26 16:14:12 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver    - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void com.vti.slide08.controller.DepartmentController.create(com.vti.slide08.form.DepartmentCreateForm): [Field error in object 'departmentCreateForm' on field 'totalMembers': rejected value [null]; codes [NotNull.departmentCreateForm.totalMembers,NotNull.totalMembers,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [departmentCreateForm.totalMembers,totalMembers]; arguments []; default message [totalMembers]]; default message [Department total members must NOT be null]] ] 
+2022-10-26 16:15:13 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications) 
+2022-10-26 16:15:14 [Thread-5] INFO  o.a.c.h.Http11NioProtocol                          - Pausing ProtocolHandler ["http-nio-8080"] 
+2022-10-26 16:15:14 [Thread-5] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat] 
+2022-10-26 16:15:14 [Thread-5] INFO  o.a.c.c.C.[.[.[/]                                  - Destroying Spring FrameworkServlet 'dispatcherServlet' 
+2022-10-26 16:15:14 [Thread-5] INFO  o.a.c.h.Http11NioProtocol                          - Stopping ProtocolHandler ["http-nio-8080"] 
+2022-10-26 16:15:14 [Thread-5] INFO  o.a.c.h.Http11NioProtocol                          - Destroying ProtocolHandler ["http-nio-8080"] 
+2022-10-26 16:15:14 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-10-26 16:15:14 [Thread-5] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-10-26 16:15:14 [Thread-5] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-10-26 16:15:14 [restartedMain] INFO  c.v.s.Slide08Application                           - Starting Slide08Application using Java 1.8.0_345 on DESKTOP-RUU2FJP with PID 16024 (E:\VTI-SouceCode\Java\Java-Advance\Slider_VTI\slide-08\target\classes started by haiph in E:\VTI-SouceCode\Java\Java-Advance\Slider_VTI\slide-08) 
+2022-10-26 16:15:14 [restartedMain] INFO  c.v.s.Slide08Application                           - No active profile set, falling back to 1 default profile: "default" 
+2022-10-26 16:15:15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-10-26 16:15:15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces. 
+2022-10-26 16:15:16 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http) 
+2022-10-26 16:15:16 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"] 
+2022-10-26 16:15:16 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat] 
+2022-10-26 16:15:16 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.65] 
+2022-10-26 16:15:16 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext 
+2022-10-26 16:15:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1715 ms 
+2022-10-26 16:15:16 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-10-26 16:15:16 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Starting... 
+2022-10-26 16:15:16 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Start completed. 
+2022-10-26 16:15:16 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2022-10-26 16:15:16 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-10-26 16:15:16 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-10-26 16:15:16 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2022-10-26 16:15:17 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.vti.slide08.service.IDepartmentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)} 
+2022-10-26 16:15:17 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-10-26 16:15:17 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Shutdown initiated... 
+2022-10-26 16:15:17 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Shutdown completed. 
+2022-10-26 16:15:17 [restartedMain] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat] 
+2022-10-26 16:15:17 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-10-26 16:15:17 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.vti.slide08.controller.DepartmentController required a bean of type 'com.vti.slide08.service.IDepartmentService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.vti.slide08.service.IDepartmentService' in your configuration.
+ 
+2022-10-26 16:15:23 [restartedMain] INFO  c.v.s.Slide08Application                           - Starting Slide08Application using Java 1.8.0_345 on DESKTOP-RUU2FJP with PID 16024 (E:\VTI-SouceCode\Java\Java-Advance\Slider_VTI\slide-08\target\classes started by haiph in E:\VTI-SouceCode\Java\Java-Advance\Slider_VTI\slide-08) 
+2022-10-26 16:15:23 [restartedMain] INFO  c.v.s.Slide08Application                           - No active profile set, falling back to 1 default profile: "default" 
+2022-10-26 16:15:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-10-26 16:15:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces. 
+2022-10-26 16:15:25 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http) 
+2022-10-26 16:15:25 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"] 
+2022-10-26 16:15:25 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat] 
+2022-10-26 16:15:25 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.65] 
+2022-10-26 16:15:25 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext 
+2022-10-26 16:15:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1781 ms 
+2022-10-26 16:15:25 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-10-26 16:15:25 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-3 - Starting... 
+2022-10-26 16:15:25 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-3 - Start completed. 
+2022-10-26 16:15:25 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2022-10-26 16:15:25 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-10-26 16:15:25 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-10-26 16:15:25 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2022-10-26 16:15:26 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain                 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24034244, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6422231a, org.springframework.security.web.context.SecurityContextPersistenceFilter@22f23e3e, org.springframework.security.web.header.HeaderWriterFilter@83bdb3f, org.springframework.web.filter.CorsFilter@434f1015, org.springframework.security.web.authentication.logout.LogoutFilter@e4d4b1a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4b109e03, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46d439d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1060e010, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c606ef9, org.springframework.security.web.session.SessionManagementFilter@6da8130a, org.springframework.security.web.access.ExceptionTranslationFilter@2f097977, org.springframework.security.web.access.intercept.AuthorizationFilter@2fe1057e] 
+2022-10-26 16:15:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-10-26 16:15:26 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8080"] 
+2022-10-26 16:15:26 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8080 (http) with context path '' 
+2022-10-26 16:15:27 [restartedMain] INFO  c.v.s.Slide08Application                           - Started Slide08Application in 3.817 seconds (JVM running for 208.36) 
+2022-10-26 16:15:27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged 
+2022-10-26 16:15:34 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-10-26 16:15:34 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet' 
+2022-10-26 16:15:34 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 2 ms 
+2022-10-26 16:16:38 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-10-26 16:16:38 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-3 - Shutdown initiated... 
+2022-10-26 16:16:38 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-3 - Shutdown completed. 
